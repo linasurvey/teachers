@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="1.1.1" htmlParse="false">
+
+     <!-- title of the study -->
+     <item id="studyTitle">teachersviewssurvey</item>
+
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
+
+     <!-- shuffle cards (true|false) (4) -->
+     <item id="shuffleCards">true</item>
+
+     <!-- access code required (true|false) (5) -->
+     <item id="loginrequired">true</item>
+     <item id="clearCachePassword">cleareqmobilecache</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword">300400</item>
+    <item id="partNameRequired">false</item>
+      <!-- Use login script -->
+     <item id="useLogInScript">false</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
+
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">true</item>
+     <item id="showStep4">true</item>
+     <item id="showStep5">true</item>
+
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">true</item>
+
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+        <label>您的教龄是多久？（单位：年）</label>
+        <note>只写数字即可 （例：5）</note>
+        <input type="text" required="true" maxlength="1000" ></input>
+
+        <label>您从哪一年开始在外语课程中融入德育的？</label>
+        <note>例：2019</note>
+        <input type="text" required="true" maxlength="100000" ></input>
+
+        <label>您的学生是哪个群体?</label>
+        <note>大学生，高中生，初中生，小学生</note>
+        <input type="text" required="true" maxlength="100000" ></input>
+
+        <label>如果您想要参与到此研究中或者愿意接受进一步的采访，请将您的联系方式留在这里（邮箱，电话，QQ或者微信号均可）</label>
+        <input type="textarea" required="false"></input>
+
+     </item>
+
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>

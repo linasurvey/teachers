@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">下一步</item>
+        <item id="btnclose">关闭</item>
+        <item id="btnHelp">本页提示</item>
+        <item id="btnAgreement">同意</item>
+        <item id="btnNeutral">中立</item>
+        <item id="btnDisagreement">不同意</item>
+        <item id="btnTransfer">提交</item>
+        <item id="btnExit">退出</item>
+        <item id="selectItem">请选择</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">您的问卷未保存</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">返回</item>
+        <item id="fillInRequiredFields">哎呀！您还没有完成哦</item>
+
+        <!-- errors -->
+        <item id="errorHead">报错啦</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">感谢您对本研究的支持！</item>
+        <item id="welcomeText">外语教师对于在外语课程中融入德育的看法{br}{br}{b}** 声明 **{/b}{br}您将匿名作答，本问卷旨在收集真实想法，无任何填写个人信息的模块。数据仅用于本研究。本问卷是在网站中完成，请将网页最大化，操作时触屏（平板或手机）或使用鼠标均可。</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">项目名称</item>
+        <item id="introText">外语教师对于在外语课程中融入德育的看法</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">请在阅读以下卡片内容后，点击卡片拖入相应的集合：不同意，中立，同意。{br}{br}如果您是电脑操作，您也可以在阅读卡片的时候按【数字键】123，他们分别对应 {b}1不同意，2中立，3同意 {/b} 也可以完成 {br}{br}如果想更改卡片位置，不用返回，继续操作即可。会在下一步操作进行更改</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">请将“不同意”中的卡片，按照您的评分放入相应位置，特别是要选择出“最不同意”的卡片放在-4位置；{br}{br}请将“同意”中的卡片，按照您的评分放入相应位置，特别是要选择出“最同意”的卡片放在+4位置；{br}{br}此时您可以忽略卡片的颜色，不对应也可以。最后，请将“中立”中的卡片放入剩余位置。请一定用卡片填满所有方格，才会提示下一步。</item>
+        <item id="step2CondOfInstruc">Give condition of instruction here</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">太棒啦！您已经放置好所有卡片。 
+请您再次确认“-4完全不同意；+4完全同意”处的卡片是您的最终选择。</item>
+        <item id="step3CondOfInstruc">请从您的真实体验和想法出发来完成，此时可以忽略卡片的颜色</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">您为什么将下列卡片放入了这些分值区域里？
+
+您为什么完全同意及完全不同意这些观点呢？</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">感谢您的耐心配合！
+如果您想要参与到此研究中或者愿意接受进一步的采访，请将您的联系方式留在这里（邮箱，电话，QQ或者微信号均可）</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">提交</item>
+        <item id="transferText">您已经完成全部内容的填写，请点击提交</item>
+        <item id="transferFailed">提交失败，请点击重试</item>
+        <item id="transferOk">感谢参与！{br}{br}您可以关闭我啦！
+
+</item>   
+   </language>
